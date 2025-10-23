@@ -81,7 +81,7 @@
 | Is the labeling of the columns appropriate? |   |
 | Are there mixed values in a column (e.g., numbers and characters)? | Yes, in the column Ocean_promity(<1H OCEAN).  |
 | Are string columns clean? | Yes  |
-| Does the dataset look machine generated? | Yes   |
+| Does the dataset look machine generated? | Yes because no spelling inconsistency, no extra spaces found. Data is well formatted.  |
 | Other |   |
 
 ---
