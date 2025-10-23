@@ -121,25 +121,6 @@
 
 ## 2. Structure of the Dataset
 
-| Column name | Data type | Non-null count | Unique values | Example values |
-|--------------|------------|----------------|----------------|----------------|
-|Order_ID   |object   |43739   |43739   |rxlj896944852, dxrl758847749, gyvu619312967   |
-|Agent_Age   |int64   |43739   |22   |38, 25, 34   |
-|Agent_Rating   |float64   |43685   |28   |4.6, 4.5, 5.0   |
-|Store_Latitude   |float64   |43739   |521   |22.310237, 30.362686, 26.766536  |
-|Store_Longitude   |float64   |43739   |415   |   |
-|Drop_Latitude   |float64   |43739   |4367   |   |
-|Drop_Longitude   |float64   |43739   |4367   |   |
-|Order_Date   |object   |43739   |44   |   |
-|Order_Time   |object   |43739   |177   |   |
-|Pickup_Time   |object   |43739   |193   |   |
-|Weather   |object   |43648   |6   |   |
-|Traffic   |object   |43739   |5   |   |
-|Vehicle   |object   |43739   |4   |   |
-|Area   |object   |43739   |4   |   |
-|Delivery_Time   |int64   |43739   |89   |   |
-|Category   |object   |43739   |16   |   |
-
 | Column name     | Data type   |   Non-null count |   Unique values | Examples                                                                  |
 |:----------------|:------------|-----------------:|----------------:|:--------------------------------------------------------------------------|
 | Order_ID        | object      |            43739 |           43739 | ysql652484304, omei605786978, xxor408538921, digx266253552, nlsl993697678 |
