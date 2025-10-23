@@ -72,7 +72,7 @@
 
 ---
 
-## 5. Data Consistency
+## 4. Data Consistency
 
 | Item | Description |
 |------|--------------|
