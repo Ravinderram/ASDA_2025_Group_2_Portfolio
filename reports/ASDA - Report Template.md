@@ -56,7 +56,7 @@
 
 ---
 
-## 4. Missing Values and Duplicates
+## 3. Missing Values and Duplicates
 
 | Column name | Missing count | % Missing |
 |--------------|----------------|------------|
@@ -76,24 +76,24 @@
 
 | Item | Description |
 |------|--------------|
-| Does the dataset contain unnecessary columns? Which? |   |
+| Does the dataset contain unnecessary columns? Which? | Yes, the Dataset contains Unnecessary columns such as longitude and Latitude    |
 | Do the data types correspond to the columns? |   |
 | Is the labeling of the columns appropriate? |   |
-| Are there mixed values in a column (e.g., numbers and characters)? |   |
-| Are string columns clean? |   |
-| Does the dataset look machine generated? |   |
+| Are there mixed values in a column (e.g., numbers and characters)? | Yes, in the column Ocean_promity(<1H OCEAN).  |
+| Are string columns clean? | Yes  |
+| Does the dataset look machine generated? | Yes   |
 | Other |   |
 
 ---
 
-## 6. Overall Assessment
+## 5. Overall Assessment
 
 - Is it worth it to further analyze the dataset?  
 - What possible analyses can be performed?
 
 ---
 
-## 7. Next Steps
+## 6. Next Steps
 
 - Handling missing values? How?  
 - Removing duplicates?  
@@ -107,13 +107,13 @@
 
 | Item Description |   |
 |-------------------|---|
-| Dataset name |California Housing Prices   |
+| Dataset name |Amazon_Delivery_Dataset   |
 | Number of rows |20640   |
 | Number of columns |10   |
 | Format file (.csv, .txt, etc) |.csv   |
-| Authors of the dataset |not provided on Kaggle   |
+| Authors of the dataset | Sujal Suthar   |
 | Source (name) |Kaggle   |
-| Source (link) |https://www.kaggle.com/datasets/camnugent/california-housing-prices?select=housing.csv   |
+| Source (link) |https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset   |
 
 **Short description (what is it about?)**
 
