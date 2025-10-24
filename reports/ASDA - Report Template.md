@@ -108,8 +108,8 @@
 | Item Description |   |
 |-------------------|---|
 | Dataset name |Amazon_Delivery_Dataset   |
-| Number of rows |20640   |
-| Number of columns |10   |
+| Number of rows |43739   |
+| Number of columns |16   |
 | Format file (.csv, .txt, etc) |.csv   |
 | Authors of the dataset | Sujal Suthar   |
 | Source (name) |Kaggle   |
