@@ -78,7 +78,7 @@
 |------|--------------|
 | Does the dataset contain unnecessary columns? Which? | Yes, the Dataset contains Unnecessary columns such as longitude and Latitude    |
 | Do the data types correspond to the columns? |   |
-| Is the labeling of the columns appropriate? |   |
+| Is the labeling of the columns appropriate? | somehow because the first letters of the labels can be capitalize for example latitude to Latitude.  |
 | Are there mixed values in a column (e.g., numbers and characters)? | Yes, in the column Ocean_promity(<1H OCEAN).  |
 | Are string columns clean? | Yes  |
 | Does the dataset look machine generated? | Yes because no spelling inconsistency, no extra spaces found. Data is well formatted.  |
@@ -191,12 +191,12 @@
 
 | Item | Description |
 |------|--------------|
-| Does the dataset contain unnecessary columns? Which? |   |
-| Do the data types correspond to the columns? |   |
-| Is the labeling of the columns appropriate? |   |
-| Are there mixed values in a column (e.g., numbers and characters)? |   |
-| Are string columns clean? |   |
-| Does the dataset look machine generated? |   |
+| Does the dataset contain unnecessary columns? Which? | Yes , Columns such as Store_Latitude,Store_Longitude, Drop_Latitude and Drop_Longitude. |
+| Do the data types correspond to the columns? | Yes the data types correspond correctly to the nature of the data in each column  |
+| Is the labeling of the columns appropriate? |  Yes |
+| Are there mixed values in a column (e.g., numbers and characters)? | Yes in the first column (Order ID) have generated values from Number and Characters.  |
+| Are string columns clean? | Yes  |
+| Does the dataset look machine generated? | No  |
 | Other |   |
 
 ---
