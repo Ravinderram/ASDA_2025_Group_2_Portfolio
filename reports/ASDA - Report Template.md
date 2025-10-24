@@ -171,7 +171,7 @@
 
 ---
 
-## 4. Missing Values and Duplicates
+## 3. Missing Values and Duplicates
 
 | Column name | Missing count | % Missing |
 |--------------|----------------|------------|
@@ -187,7 +187,7 @@
 
 ---
 
-## 5. Data Consistency
+## 4. Data Consistency
 
 | Item | Description |
 |------|--------------|
@@ -201,14 +201,14 @@
 
 ---
 
-## 6. Overall Assessment
+## 5. Overall Assessment
 
 - Is it worth it to further analyze the dataset?  
 - What possible analyses can be performed?
 
 ---
 
-## 7. Next Steps
+## 6. Next Steps
 
 - Handling missing values? How?  
 - Removing duplicates?  
