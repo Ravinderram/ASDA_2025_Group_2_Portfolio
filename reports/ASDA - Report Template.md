@@ -20,11 +20,18 @@
 
 ## 2. Structure of the Dataset
 
-| Column name | Data type | Non-null count | Unique values | Example values |
-|--------------|------------|----------------|----------------|----------------|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Column name        | Data type   |   Non-null count |   Unique values | Examples                                         |
+|:-------------------|:------------|-----------------:|----------------:|:-------------------------------------------------|
+| longitude          | float64     |            20640 |             844 | -121.88, -121.32, -119.33, -117.98, -117.65      |
+| latitude           | float64     |            20640 |             862 | 37.46, 38.59, 36.3, 33.76, 34.12                 |
+| housing_median_age | float64     |            20640 |              52 | 5.0, 24.0, 11.0, 29.0, 17.0                      |
+| total_rooms        | float64     |            20640 |            5926 | 1819.0, 4378.0, 3045.0, 1518.0, 3006.0           |
+| total_bedrooms     | float64     |            20433 |            1923 | 245.0, 910.0, nan, 312.0, 427.0                  |
+| population         | float64     |            20640 |            3888 | 802.0, 2149.0, 1563.0, 1086.0, 1291.0            |
+| households         | float64     |            20640 |            1815 | 228.0, 812.0, 516.0, 317.0, 406.0                |
+| median_income      | float64     |            20640 |           12928 | 10.9722, 2.5035, 5.4337, 4.32, 6.2083            |
+| median_house_value | float64     |            20640 |            3842 | 500001.0, 123700.0, 133800.0, 196900.0, 242700.0 |
+| ocean_proximity    | object      |            20640 |               5 | <1H OCEAN, INLAND, INLAND, <1H OCEAN, INLAND     |
 
 ---
 
@@ -147,44 +154,56 @@
 
 ### Numeric Columns
 
-|   | Column 1 | Column 2 | Column 3 |
-|---|-----------|-----------|-----------|
-| Count |   |   |   |
-| Mean |   |   |   |
-| Standard deviation |   |   |   |
-| Min |   |   |   |
-| 25% |   |   |   |
-| 50% |   |   |   |
-| 75% |   |   |   |
-| Max |   |   |   |
+|       |   Agent_Age |   Agent_Rating |   Store_Latitude |   Store_Longitude |   Drop_Latitude |   Drop_Longitude |   Delivery_Time |
+|:------|------------:|---------------:|-----------------:|------------------:|----------------:|-----------------:|----------------:|
+| count | 43739       |   43685        |      43739       |        43739      |     43739       |       43739      |      43739      |
+| mean  |    29.5671  |       4.63378  |         17.211   |           70.6612 |        17.459   |          70.8218 |        124.906  |
+| std   |     5.81516 |       0.334716 |          7.76423 |           21.475  |         7.34295 |          21.1531 |         51.9155 |
+| min   |    15       |       1        |        -30.9029  |          -88.3662 |         0.01    |           0.01   |         10      |
+| 25%   |    25       |       4.5      |         12.9333  |           73.1703 |        12.986   |          73.28   |         90      |
+| 50%   |    30       |       4.7      |         18.5514  |           75.8985 |        18.6336  |          76.0026 |        125      |
+| 75%   |    35       |       4.9      |         22.7322  |           78.0454 |        22.785   |          78.1041 |        160      |
+| max   |    50       |       6        |         30.9141  |           88.4335 |        31.0541  |          88.5635 |        270      |
 
 ### Categorical / Object Columns
 
-|   | Column 1 | Column 2 | Column 3 |
-|---|-----------|-----------|-----------|
-| Count |   |   |   |
-| Number of unique values |   |   |   |
-| Most frequent value |   |   |   |
-| Most frequent value (frequency) |   |   |   |
-| Least frequent value |   |   |   |
-| Least frequent value (frequency) |   |   |   |
+||                                  | Order_ID      | Order_Date   | Order_Time   | Pickup_Time   | Weather   | Traffic   | Vehicle    | Area          | Category    |
+|:---------------------------------|:--------------|:-------------|:-------------|:--------------|:----------|:----------|:-----------|:--------------|:------------|
+| Count                            | 43739         | 43739        | 43739        | 43739         | 43648     | 43739     | 43739      | 43739         | 43739       |
+| Number of unique values          | 43739         | 44           | 177          | 193           | 6         | 5         | 4          | 4             | 16          |
+| Most frequent value              | ialx566343618 | 2022-03-15   | 21:55:00     | 21:30:00      | Fog       | Low       | motorcycle | Metropolitian | Electronics |
+| Most frequent value (frequency)  | 1             | 1141         | 460          | 481           | 7440      | 14999     | 25527      | 32698         | 2849        |
+| Least frequent value             | ialx566343618 | 2022-02-18   | 16:30:00     | 16:20:00      | Sunny     | NaN       | bicycle    | Semi-Urban    | Shoes       |
+| Least frequent value (frequency) | 1             | 819          | 51           | 36            | 7078      | 91        | 15         | 152           | 2666        |
 
 ---
 
 ## 3. Missing Values and Duplicates
 
-| Column name | Missing count | % Missing |
-|--------------|----------------|------------|
-|   |   |   |
-|   |   |   |
-|   |   |   |
 
-**Total missing values:**  
-**Percentage of dataset affected:**  
+| Column name     |   Missing count |   % Missing |
+|:----------------|----------------:|------------:|
+| Order_ID        |               0 |    0        |
+| Agent_Age       |               0 |    0        |
+| Agent_Rating    |              54 |    0.12346  |
+| Store_Latitude  |               0 |    0        |
+| Store_Longitude |               0 |    0        |
+| Drop_Latitude   |               0 |    0        |
+| Drop_Longitude  |               0 |    0        |
+| Order_Date      |               0 |    0        |
+| Order_Time      |               0 |    0        |
+| Pickup_Time     |               0 |    0        |
+| Weather         |              91 |    0.208052 |
+| Traffic         |               0 |    0        |
+| Vehicle         |               0 |    0        |
+| Area            |               0 |    0        |
+| Delivery_Time   |               0 |    0        |
+| Category        |               0 |    0        |
 
-**Duplicated rows found:**  
-**Percentage of rows in dataset affected:**
-
+**Total missing values:** 145
+**Percentage of dataset affected:** 0.02%
+**Duplicated rows found:** 0
+**Percentage of rows in dataset affected:** 0.00%
 ---
 
 ## 4. Data Consistency
