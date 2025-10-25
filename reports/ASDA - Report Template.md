@@ -201,8 +201,11 @@
 | Category        |               0 |    0        |
 
 **Total missing values:** 145
+
 **Percentage of dataset affected:** 0.02%
+
 **Duplicated rows found:** 0
+
 **Percentage of rows in dataset affected:** 0.00%
 
 ---
