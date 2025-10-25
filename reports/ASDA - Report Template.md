@@ -167,7 +167,7 @@
 
 ### Categorical / Object Columns
 
-||                                  | Order_ID      | Order_Date   | Order_Time   | Pickup_Time   | Weather   | Traffic   | Vehicle    | Area          | Category    |
+|                                  | Order_ID      | Order_Date   | Order_Time   | Pickup_Time   | Weather   | Traffic   | Vehicle    | Area          | Category    |
 |:---------------------------------|:--------------|:-------------|:-------------|:--------------|:----------|:----------|:-----------|:--------------|:------------|
 | Count                            | 43739         | 43739        | 43739        | 43739         | 43648     | 43739     | 43739      | 43739         | 43739       |
 | Number of unique values          | 43739         | 44           | 177          | 193           | 6         | 5         | 4          | 4             | 16          |
