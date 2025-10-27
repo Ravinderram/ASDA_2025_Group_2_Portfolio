@@ -188,9 +188,8 @@ This Amazon Delivery Dataset provides a comprehensive view of the company's last
 | Number of unique values          | 43739         | 44           | 177          | 193           | 6         | 5         | 4          | 4             | 16          |
 | Most frequent value              | ialx566343618 | 2022-03-15   | 21:55:00     | 21:30:00      | Fog       | Low       | motorcycle | Metropolitian | Electronics |
 | Most frequent value (frequency)  | 1             | 1141         | 460          | 481           | 7440      | 14999     | 25527      | 32698         | 2849        |
-| Least frequent value             | ialx566343618 | 2022-02-18   | 16:30:00     | 16:20:00      | Sunny     | NaN       | bicycle    | Semi-Urban    | Shoes       |
-| Least frequent value (frequency) | 1             | 819          | 51           | 36            | 7078      | 91        | 15         | 152           | 2666        |
-
+| Least frequent value             | nsyz997960170 | 2022-02-18   | 16:30:00     | 16:20:00      | nan       | NaN       | bicycle    | Semi-Urban    | Shoes       |
+| Least frequent value (frequency) | 1             | 819          | 51           | 36            | 91        | 91        | 15         | 152           | 2666        |
 ---
 
 ## 3. Missing Values and Duplicates
