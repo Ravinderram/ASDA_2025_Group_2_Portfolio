@@ -121,7 +121,10 @@ Replace missing values with the median of the column;
 Replace with the mean;
 Remove the rows with missing values.
 
-- Removing duplicates?  
+**Removing duplicates?** 
+When checking for duplicates, we found 0 duplicated rows in the dataset.
+This means every record (district) is unique, and no two rows contain the same information.
+Therefore, no action is needed — the dataset already has clean, non-duplicate data.
 - Cleaning the columns? Which?  
 - Creating a subset of the dataframe? 
 
