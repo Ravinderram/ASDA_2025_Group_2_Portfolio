@@ -39,43 +39,50 @@
 
 ### Numeric Columns
 
-|   | Column 1 | Column 2 | Column 3 |
-|---|-----------|-----------|-----------|
-| Count |   |   |   |
-| Mean |   |   |   |
-| Standard deviation |   |   |   |
-| Min |   |   |   |
-| 25% |   |   |   |
-| 50% |   |   |   |
-| 75% |   |   |   |
-| Max |   |   |   |
+|       |   longitude |    latitude |   housing_median_age |   total_rooms |   total_bedrooms |   population |   households |   median_income |   median_house_value |
+|:------|------------:|------------:|---------------------:|--------------:|-----------------:|-------------:|-------------:|----------------:|---------------------:|
+| count | 20640       | 20640       |           20640      |      20640    |        20433     |     20640    |     20640    |     20640       |                20640 |
+| mean  |  -119.57    |    35.6319  |              28.6395 |       2635.76 |          537.871 |      1425.48 |       499.54 |         3.87067 |               206856 |
+| std   |     2.00353 |     2.13595 |              12.5856 |       2181.62 |          421.385 |      1132.46 |       382.33 |         1.89982 |               115396 |
+| min   |  -124.35    |    32.54    |               1      |          2    |            1     |         3    |         1    |         0.4999  |                14999 |
+| 25%   |  -121.8     |    33.93    |              18      |       1447.75 |          296     |       787    |       280    |         2.5634  |               119600 |
+| 50%   |  -118.49    |    34.26    |              29      |       2127    |          435     |      1166    |       409    |         3.5348  |               179700 |
+| 75%   |  -118.01    |    37.71    |              37      |       3148    |          647     |      1725    |       605    |         4.74325 |               264725 |
+| max   |  -114.31    |    41.95    |              52      |      39320    |         6445     |     35682    |      6082    |        15.0001  |               500001 |
 
 ### Categorical / Object Columns
 
-|   | Column 1 | Column 2 | Column 3 |
-|---|-----------|-----------|-----------|
-| Count |   |   |   |
-| Number of unique values |   |   |   |
-| Most frequent value |   |   |   |
-| Most frequent value (frequency) |   |   |   |
-| Least frequent value |   |   |   |
-| Least frequent value (frequency) |   |   |   |
-
+|                                  | ocean_proximity   |
+|:---------------------------------|:------------------|
+| Count                            | 20640             |
+| Number of unique values          | 5                 |
+| Most frequent value              | <1H OCEAN         |
+| Most frequent value (frequency)  | 9136              |
+| Least frequent value             | ISLAND            |
+| Least frequent value (frequency) | 5                 |
 ---
 
 ## 3. Missing Values and Duplicates
 
-| Column name | Missing count | % Missing |
-|--------------|----------------|------------|
-|   |   |   |
-|   |   |   |
-|   |   |   |
+                           Column name  Missing count  % Missing
+longitude                    longitude              0   0.000000
+latitude                      latitude              0   0.000000
+housing_median_age  housing_median_age              0   0.000000
+total_rooms                total_rooms              0   0.000000
+total_bedrooms          total_bedrooms            207   1.002907
+population                  population              0   0.000000
+households                  households              0   0.000000
+median_income            median_income              0   0.000000
+median_house_value  median_house_value              0   0.000000
+ocean_proximity        ocean_proximity              0   0.000000
 
-**Total missing values:**  
-**Percentage of dataset affected:**  
+**Total missing values:** 207
 
-**Duplicated rows found:**  
-**Percentage of rows in dataset affected:**
+**Percentage of dataset affected:** 0.10%
+
+**Duplicated rows found:** 0
+
+**Percentage of rows in dataset affected:** 0.00%
 
 ---
 
@@ -107,6 +114,8 @@
 - Cleaning the columns? Which?  
 - Creating a subset of the dataframe? 
 
+END OF DATASET 1
+________________________________________________________________________________________________
 
 # Dataset 2
 
