@@ -104,8 +104,11 @@ The data pertains to the houses found in a given California district and some su
 
 ## 5. Overall Assessment
 
-- Is it worth it to further analyze the dataset?  
-- What possible analyses can be performed?
+**Is it worth it to further analyze the dataset?**
+Yes, definitely. What we've done so far is a good foundation on analyzing the data set but we can surely analyze it further to explore and visualize it.
+
+**What possible analyses can be performed?**
+We can perform analyses on the outliers, check for trends (if any), populating the missing values. Also can see if data needs correction aginst its data type. 
 
 ---
 
@@ -134,6 +137,7 @@ ________________________________________________________________________________
 | Source (link) |https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset   |
 
 **Short description (what is it about?)**
+This Amazon Delivery Dataset provides a comprehensive view of the company's last-mile logistics operations. The dataset enables researchers and analysts to uncover insights into factors influencing delivery efficiency, identify areas for optimization, and explore the impact of various variables on the overall customer experience.
 
 ---
 
