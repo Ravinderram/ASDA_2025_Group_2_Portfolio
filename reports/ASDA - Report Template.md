@@ -114,7 +114,13 @@ We can perform analyses on the outliers, check for trends (if any), populating t
 
 ## 6. Next Steps
 
-- Handling missing values? How?  
+**Handling missing values? How?**
+The dataset has missing values only in the total_bedrooms column (about 1%).
+Since this is a small portion of the data, we can handle it in several ways:
+Replace missing values with the median of the column
+Replace with the mean
+Remove the rows with missing values
+
 - Removing duplicates?  
 - Cleaning the columns? Which?  
 - Creating a subset of the dataframe? 
