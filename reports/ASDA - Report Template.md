@@ -125,6 +125,7 @@ Remove the rows with missing values.
 When checking for duplicates, we found 0 duplicated rows in the dataset.
 This means every record (district) is unique, and no two rows contain the same information.
 Therefore, no action is needed — the dataset already has clean, non-duplicate data.
+
 **Cleaning the columns? Which?** 
 The "ocean_proximity" column should be standardized by converting all text values to lowercase and removing any extra spaces. This ensures consistency across categories, making the data easier to group, analyze, and visualize.
 Also all missing values in the "total_bedrooms" column should be replaced with the median of the column. This ensures that the dataset is complete while minimizing the impact of outliers.
