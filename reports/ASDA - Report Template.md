@@ -93,7 +93,7 @@ The data pertains to the houses found in a given California district and some su
 | Item | Description |
 |------|--------------|
 | Does the dataset contain unnecessary columns? Which? | Yes, the Dataset contains Unnecessary columns such as longitude and Latitude    |
-| Do the data types correspond to the columns? |   |
+| Do the data types correspond to the columns? |   |Yes, the data types correspond appropriately to the columns |
 | Is the labeling of the columns appropriate? | somehow because the first letters of the labels can be capitalize for example latitude to Latitude.  |
 | Are there mixed values in a column (e.g., numbers and characters)? | Yes, in the column Ocean_promity(<1H OCEAN).  |
 | Are string columns clean? | Yes  |
