@@ -93,7 +93,7 @@ The data pertains to the houses found in a given California district and some su
 | Item | Description |
 |------|--------------|
 | Does the dataset contain unnecessary columns? Which? | Yes, the Dataset contains Unnecessary columns such as longitude and Latitude    |
-| Do the data types correspond to the columns? |   |Yes, the data types correspond appropriately to the columns |
+| Do the data types correspond to the columns? | Yes, the data types correspond appropriately to the columns  | 
 | Is the labeling of the columns appropriate? | somehow because the first letters of the labels can be capitalize for example latitude to Latitude.  |
 | Are there mixed values in a column (e.g., numbers and characters)? | Yes, in the column Ocean_promity(<1H OCEAN).  |
 | Are string columns clean? | Yes  |
@@ -104,34 +104,31 @@ The data pertains to the houses found in a given California district and some su
 
 ## 5. Overall Assessment
 
-**Is it worth it to further analyze the dataset?**
+**Is it worth it to further analyze the dataset?**  <br />
 Yes, definitely. What we've done so far is a good foundation on analyzing the data set but we can surely analyze it further to explore and visualize it.
 
-**What possible analyses can be performed?**
+**What possible analyses can be performed?** <br />
 We can perform analyses on the outliers, check for trends (if any), populating the missing values. Also can see if data needs correction aginst its data type. 
 
 ---
 
 ## 6. Next Steps
-**Handling missing values? How?**
+**-Handling missing values? How?** <br />
 The dataset has missing values only in the total_bedrooms column (about 1%).
-Since this is a small portion of the data, we can handle it in several ways:
-Replace missing values with the median of the column;
-Replace with the mean;
-Remove the rows with missing values.
-
-**Removing duplicates?** 
+Since this is a small portion of the data, we can handle it in several ways:  <br />
+Replace missing values with the median of the column  <br />
+Replace with the mean  <br />
+Remove the rows with missing values.  <br />
+**-Removing duplicates?**  <br /> 
 When checking for duplicates, we found 0 duplicated rows in the dataset.
 This means every record (district) is unique, and no two rows contain the same information.
-Therefore, no action is needed — the dataset already has clean, non-duplicate data.
-**Cleaning the columns? Which?**
-We found the most inconsistancy in the column ocean_proximity such as the value (<1H OCEAN) which makes no clear sense to user while reading the data. So we can write this value in more understandable way.
-**Creating a subset of the dataframe?**
+Therefore, no action is needed — the dataset already has clean, non-duplicate data.  <br />
+**-Cleaning the columns? Which?** <br />
+We found the most inconsistancy in the column ocean_proximity such as the value (<1H OCEAN) which makes no clear sense to user while reading the data. So we can write this value in more understandable way.  <br />
+**-Creating a subset of the dataframe?**  <br />
 Based on the datasets we can create the subsets of median_house_value and ocean_proximity which describes how housing prices change depending on geographic location and proximity to the ocean.
 
-
-
-END OF DATASET 1
+**END OF DATASET 1**
 ____________________________________________________________________________________________________
 
 # Dataset 2
@@ -204,7 +201,7 @@ This Amazon Delivery Dataset provides a comprehensive view of the company's last
 | Least frequent value (frequency) | 1             | 819          | 51           | 36            | 91        | 91        | 15         | 152           | 2666        |
 ---
 
-## 3. Missing Values and Duplicates
+##  Missing Values and Duplicates
 
 
 | Column name     |   Missing count |   % Missing |
@@ -263,11 +260,12 @@ The dataset is comprehensive, well-structured, and contains minimal missing valu
 ---
 
 ## 6. Next Steps
-
-- Handling missing values? How?  
-Since only agent rating (54) and weather (91) have a small number of missing values, we could use the mean/median for agent rating to fill in the gaps and the mode for weather (since it is categorical).
-- Removing duplicates?  
-No duplicates were found.
-- Cleaning the columns? Which?  
-- Creating a subset of the dataframe?  
+**-Handling missing values? How?**  <br/>
+Since only agent rating (54) and weather (91) have a small number of missing values, we could use the mean/median for agent rating to fill in the gaps and the mode for weather (since it is categorical).<br/>
+**-Removing duplicates?**  <br/>
+No duplicates were found.<br/>
+**-Cleaning the columns? Which?** <br/>
+We found some inconsistencies in the columns such as delivery_time which is not feasible showing whether its hours or minutes. Other things we want to clean in the dataset is Order_time and Pickup_time time formats. We could remove some extra zero behind the actual time format. <br/>
+**-Creating a subset of the dataframe?** <br/>
+Yes we can create the subsets of dataframe  columns such as Mode of vechile , Weather , Traffic, and store langitude and latitude to use how much time it took to deliver a product  and can also create a subset of column Agent_age and Agent_rating to shows the service quality.
 
