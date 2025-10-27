@@ -51,7 +51,7 @@ The data pertains to the houses found in a given California district and some su
 | 75%   |  -118.01    |    37.71    |              37      |       3148    |          647     |      1725    |       605    |         4.74325 |               264725 |
 | max   |  -114.31    |    41.95    |              52      |      39320    |         6445     |     35682    |      6082    |        15.0001  |               500001 |
 
-### 3. Categorical / Object Columns
+### Categorical / Object Columns
 
 |                                  | ocean_proximity   |
 |:---------------------------------|:------------------|
@@ -63,7 +63,7 @@ The data pertains to the houses found in a given California district and some su
 | Least frequent value (frequency) | 5                 |
 ---
 
-## 3. Missing Values and Duplicates
+### Missing Values and Duplicates
 
 | Column name        |   Missing count |   % Missing |
 |:-------------------|----------------:|------------:|
@@ -113,6 +113,21 @@ We can perform analyses on the outliers, check for trends (if any), populating t
 ---
 
 ## 6. Next Steps
+**Handling missing values? How?**
+The dataset has missing values only in the total_bedrooms column (about 1%).
+Since this is a small portion of the data, we can handle it in several ways:
+Replace missing values with the median of the column;
+Replace with the mean;
+Remove the rows with missing values.
+
+**Removing duplicates?** 
+When checking for duplicates, we found 0 duplicated rows in the dataset.
+This means every record (district) is unique, and no two rows contain the same information.
+Therefore, no action is needed — the dataset already has clean, non-duplicate data.
+**Cleaning the columns? Which?**
+We found the most inconsistancy in the column ocean_proximity such as the value (<1H OCEAN) which makes no clear sense to user while reading the data. So we can write this value in more understandable way.
+**Creating a subset of the dataframe?**
+Based on the datasets we can create the subsets of median_house_value and ocean_proximity which describes how housing prices change depending on geographic location and proximity to the ocean.
 
 
 
