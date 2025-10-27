@@ -114,23 +114,7 @@ We can perform analyses on the outliers, check for trends (if any), populating t
 
 ## 6. Next Steps
 
-**Handling missing values? How?**
-The dataset has missing values only in the total_bedrooms column (about 1%).
-Since this is a small portion of the data, we can handle it in several ways:
-Replace missing values with the median of the column;
-Replace with the mean;
-Remove the rows with missing values.
 
-**Removing duplicates?** 
-When checking for duplicates, we found 0 duplicated rows in the dataset.
-This means every record (district) is unique, and no two rows contain the same information.
-Therefore, no action is needed — the dataset already has clean, non-duplicate data.
-
-**Cleaning the columns? Which?** 
-The "ocean_proximity" column should be standardized by converting all text values to lowercase and removing any extra spaces. This ensures consistency across categories, making the data easier to group, analyze, and visualize.
-Also all missing values in the "total_bedrooms" column should be replaced with the median of the column. This ensures that the dataset is complete while minimizing the impact of outliers.
-
-**Creating a subset of the dataframe?** A subset of the dataframe can be created by selecting only the columns relevant to a specific analysis. For example, to study how income and location affect house prices, you could include median_income, median_house_value, latitude, longitude, and ocean_proximity. This simplifies the dataset and focuses the analysis on the variables of interest.
 
 END OF DATASET 1
 ____________________________________________________________________________________________________
