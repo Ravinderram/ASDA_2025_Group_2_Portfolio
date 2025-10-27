@@ -10,11 +10,12 @@
 | Number of rows |20640   |
 | Number of columns |10   |
 | Format file (.csv, .txt, etc) |.csv   |
-| Authors of the dataset |not provided on Kaggle   |
+| Authors of the dataset |Cam Nugent   |
 | Source (name) |Kaggle   |
 | Source (link) |https://www.kaggle.com/datasets/camnugent/california-housing-prices?select=housing.csv   |
 
 **Short description (what is it about?)**
+The data pertains to the houses found in a given California district and some summary stats about them based on the 1990 census data.
 
 ---
 
