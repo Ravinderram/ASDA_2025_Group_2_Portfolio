@@ -64,17 +64,18 @@
 
 ## 3. Missing Values and Duplicates
 
-                           Column name  Missing count  % Missing
-longitude                    longitude              0   0.000000
-latitude                      latitude              0   0.000000
-housing_median_age  housing_median_age              0   0.000000
-total_rooms                total_rooms              0   0.000000
-total_bedrooms          total_bedrooms            207   1.002907
-population                  population              0   0.000000
-households                  households              0   0.000000
-median_income            median_income              0   0.000000
-median_house_value  median_house_value              0   0.000000
-ocean_proximity        ocean_proximity              0   0.000000
+| Column name        |   Missing count |   % Missing |
+|:-------------------|----------------:|------------:|
+| longitude          |               0 |     0       |
+| latitude           |               0 |     0       |
+| housing_median_age |               0 |     0       |
+| total_rooms        |               0 |     0       |
+| total_bedrooms     |             207 |     1.00291 |
+| population         |               0 |     0       |
+| households         |               0 |     0       |
+| median_income      |               0 |     0       |
+| median_house_value |               0 |     0       |
+| ocean_proximity    |               0 |     0       |
 
 **Total missing values:** 207
 
