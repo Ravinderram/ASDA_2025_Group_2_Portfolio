@@ -125,8 +125,11 @@ Remove the rows with missing values.
 When checking for duplicates, we found 0 duplicated rows in the dataset.
 This means every record (district) is unique, and no two rows contain the same information.
 Therefore, no action is needed — the dataset already has clean, non-duplicate data.
-- Cleaning the columns? Which?  
-- Creating a subset of the dataframe? 
+**Cleaning the columns? Which?** 
+The "ocean_proximity" column should be standardized by converting all text values to lowercase and removing any extra spaces. This ensures consistency across categories, making the data easier to group, analyze, and visualize.
+Also all missing values in the "total_bedrooms" column should be replaced with the median of the column. This ensures that the dataset is complete while minimizing the impact of outliers.
+
+**Creating a subset of the dataframe?** A subset of the dataframe can be created by selecting only the columns relevant to a specific analysis. For example, to study how income and location affect house prices, you could include median_income, median_house_value, latitude, longitude, and ocean_proximity. This simplifies the dataset and focuses the analysis on the variables of interest.
 
 END OF DATASET 1
 ____________________________________________________________________________________________________
