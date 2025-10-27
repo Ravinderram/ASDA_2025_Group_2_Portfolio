@@ -51,7 +51,7 @@ The data pertains to the houses found in a given California district and some su
 | 75%   |  -118.01    |    37.71    |              37      |       3148    |          647     |      1725    |       605    |         4.74325 |               264725 |
 | max   |  -114.31    |    41.95    |              52      |      39320    |         6445     |     35682    |      6082    |        15.0001  |               500001 |
 
-### Categorical / Object Columns
+### 3. Categorical / Object Columns
 
 |                                  | ocean_proximity   |
 |:---------------------------------|:------------------|
