@@ -253,14 +253,21 @@ This Amazon Delivery Dataset provides a comprehensive view of the company's last
 ## 5. Overall Assessment
 
 - Is it worth it to further analyze the dataset?  
+Yes, it is worth analyzing further.
+The dataset is comprehensive, well-structured, and contains minimal missing values. It includes key operational variables related to last-mile delivery, such as agent demographics, traffic, weather, area type, and delivery times. This allows us to uncover trends and factors affecting delivery efficiency from the data.
 - What possible analyses can be performed?
+1. Delivery time trends by date or time of day.
+2. How external factors such as weather and traffic influence delivery efficiency
+3. Classification: Predict whether a delivery is “fast” or “slow” based on conditions.
 
 ---
 
 ## 6. Next Steps
 
 - Handling missing values? How?  
+Since only agent rating (54) and weather (91) have a small number of missing values, we could use the mean/median for agent rating to fill in the gaps and the mode for weather (since it is categorical).
 - Removing duplicates?  
+No duplicates were found.
 - Cleaning the columns? Which?  
 - Creating a subset of the dataframe?  
 
