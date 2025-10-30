@@ -13,6 +13,7 @@
 | Authors of the dataset |Cam Nugent   |
 | Source (name) |Kaggle   |
 | Source (link) |https://www.kaggle.com/datasets/camnugent/california-housing-prices?select=housing.csv   |
+| Date/Time | 23-10-2025 / 2.30 pm |
 
 **Short description (what is it about?)**
 The data pertains to the houses found in a given California district and some summary stats about them based on the 1990 census data.
@@ -144,6 +145,7 @@ ________________________________________________________________________________
 | Authors of the dataset | Sujal Suthar   |
 | Source (name) |Kaggle   |
 | Source (link) |https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset   |
+| Date/Time | 23-10-2025 / 2.40 pm |
 
 **Short description (what is it about?)**
 This Amazon Delivery Dataset provides a comprehensive view of the company's last-mile logistics operations. The dataset enables researchers and analysts to uncover insights into factors influencing delivery efficiency, identify areas for optimization, and explore the impact of various variables on the overall customer experience.
