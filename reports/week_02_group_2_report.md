@@ -13,7 +13,7 @@
 | Authors of the dataset |Cam Nugent   |
 | Source (name) |Kaggle   |
 | Source (link) |https://www.kaggle.com/datasets/camnugent/california-housing-prices?select=housing.csv   |
-| Date/Time | 23-10-2025 / 2.30 pm |
+| Date/Time | 23-10-2025 / 14:30:00 |
 
 **Short description (what is it about?)**
 The data pertains to the houses found in a given California district and some summary stats about them based on the 1990 census data.
@@ -72,7 +72,7 @@ The data pertains to the houses found in a given California district and some su
 | latitude           |               0 |     0       |
 | housing_median_age |               0 |     0       |
 | total_rooms        |               0 |     0       |
-| total_bedrooms     |             207 |     1.00291 |
+| total_bedrooms     |             207 |     1.00 |
 | population         |               0 |     0       |
 | households         |               0 |     0       |
 | median_income      |               0 |     0       |
@@ -144,8 +144,8 @@ ________________________________________________________________________________
 | Format file (.csv, .txt, etc) |.csv   |
 | Authors of the dataset | Sujal Suthar   |
 | Source (name) |Kaggle   |
-| Source (link) |https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset   |
-| Date/Time | 23-10-2025 / 2.40 pm |
+| Source (link) |https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset  |
+| Date/Time | 23-10-2025 / 14:40:00 |
 
 **Short description (what is it about?)**
 This Amazon Delivery Dataset provides a comprehensive view of the company's last-mile logistics operations. The dataset enables researchers and analysts to uncover insights into factors influencing delivery efficiency, identify areas for optimization, and explore the impact of various variables on the overall customer experience.
@@ -156,7 +156,7 @@ This Amazon Delivery Dataset provides a comprehensive view of the company's last
 
 | Column name     | Data type   |   Non-null count |   Unique values | Examples                                                                  |
 |:----------------|:------------|-----------------:|----------------:|:--------------------------------------------------------------------------|
-| Order_ID        | object      |            43739 |           43739 | ysql652484304, omei605786978, xxor408538921, digx266253552, nlsl993697678 |
+| Order_ID        | object      |            43739 |           43739 | [30860], [20088], [651], [35427], [43035] |
 | Agent_Age       | int64       |            43739 |              22 | 35, 29, 27, 23, 30                                                        |
 | Agent_Rating    | float64     |            43685 |              28 | 4.6, 4.6, 4.7, 4.0, 4.3                                                   |
 | Store_Latitude  | float64     |            43739 |             521 | 12.310972, 12.304569, 23.374878, 18.592718, 22.311358                     |
@@ -210,7 +210,7 @@ This Amazon Delivery Dataset provides a comprehensive view of the company's last
 |:----------------|----------------:|------------:|
 | Order_ID        |               0 |    0        |
 | Agent_Age       |               0 |    0        |
-| Agent_Rating    |              54 |    0.12346  |
+| Agent_Rating    |              54 |    0.12  |
 | Store_Latitude  |               0 |    0        |
 | Store_Longitude |               0 |    0        |
 | Drop_Latitude   |               0 |    0        |
@@ -218,7 +218,7 @@ This Amazon Delivery Dataset provides a comprehensive view of the company's last
 | Order_Date      |               0 |    0        |
 | Order_Time      |               0 |    0        |
 | Pickup_Time     |               0 |    0        |
-| Weather         |              91 |    0.208052 |
+| Weather         |              91 |    0.20 |
 | Traffic         |               0 |    0        |
 | Vehicle         |               0 |    0        |
 | Area            |               0 |    0        |
